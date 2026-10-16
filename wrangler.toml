@@ -1,3 +1,0 @@
-name = "worker-email"
-type = "javascript"
-workers_dev = true

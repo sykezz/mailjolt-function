@@ -1,0 +1,6 @@
+{
+  "name": "mailjolt-function",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-09",
+  "workers_dev": true
+}
