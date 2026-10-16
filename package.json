@@ -2,8 +2,11 @@
   "name": "mailjolt-function",
   "version": "2.0.0",
   "private": true,
-  "main": "src/index.js",
+  "type": "module",
+  "main": "src/index.ts",
   "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "hono": "^4.13.13",
@@ -12,6 +15,14 @@
     "@upyo/pool": "^0.6.0"
   },
   "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.4.2",
+    "@types/node": "^26.6.5",
+    "msw": "^3.0.3",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4",
     "wrangler": "^4"
+  },
+  "volta": {
+    "node": "24.22.0"
   }
 }
